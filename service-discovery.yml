@@ -7,3 +7,5 @@ eureka:
     fetch-registry: false
     service-url:
       defaultZone: ""
+  server:
+    enable-self-preservation: false
